@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    width: 50vw;
+    height: 35vw;
+}
+.imgdiv{
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    overflow: hidden;
+}
+.imgdiv img{
+    transform: translate(0%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
